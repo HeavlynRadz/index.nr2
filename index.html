@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arkusz nr 02 marca 2025</title>
+</head>
+<body>
+
+    <h2>Kalkulator kosztów montażu</h2>
+    
+    <form action="#" method="post">
+        <label for="szerokosc">Szerokość pomieszczenia [m]:</label>
+        <input type="number" id="szerokosc" name="szerokosc" value="4" min="1" required><br>
+
+        <label for="dlugosc">Długość pomieszczenia [m]:</label>
+        <input type="number" id="dlugosc" name="dlugosc" value="3" min="1" required><br>
+
+        <label>Typ panelu:</label><br>
+        <input type="radio" id="panel_laminowane" name="panel" value="Panele laminowane">
+        <label for="panel_laminowane">Panele laminowane</label><br>
+        
+        <input type="radio" id="panel_winylowe" name="panel" value="Panele winylowe">
+        <label for="panel_winylowe">Panele winylowe</label><br>
+        
+        <input type="radio" id="deska_podlogowa" name="panel" value="Deska podłogowa" checked>
+        <label for="deska_podlogowa">Deska podłogowa</label><br><br>
+
+        <button type="submit">Oblicz</button>
+    </form>
+
+</body>
+</html>
